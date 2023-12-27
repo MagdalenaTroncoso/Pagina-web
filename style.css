@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----HEADER-----*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+     /*LOGO: tamaño*/
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+    /*LOGO: ubicacion*/
+.logo{
+    padding-left: 150px;
+}
+
+
+     /*LISTA: ubicacion*/
+.lista-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-right: 100px;  
+}
+
+     /*LISTA: sacar items*/
+.lista-navegacion li{
+    list-style: none;
+}
+
+     /*LISTA: Estilo*/
+.lista-navegacion li a{
+    text-decoration: none;
+    color: rgb(40, 116, 252);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/*MAIN*/
+
+.hero{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*IMAGEN MAIN:*/
+.hero img{
+    filter: brightness(50%);
+    width: 100%;
+    height: 600px;
+}
+
+.hero div{
+    position: absolute;
+}
+
+/*H1 y H2: Ubicacion*/
+.hero-content{
+    top: 20%;
+}
+
+/*Botones: ubicacion*/
+.botones{
+    top:60%;
+    display: flex;
+    gap: 20px;
+}
+
+/*Flecha: Ubicacion*/
+.flecha{
+    bottom: 20%;
+}
+
+/*Titulo: estilo*/
+.hero-title{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+/*Subitulo: estilo*/
+h2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+/*Botones: estilo*/
+.boton-servicios{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 35px;
+    background-color: rgb(40, 116, 252);
+    border: none;
+    color: white;
+}
+
+.boton-servicios:hover{
+    background-color: white ;
+    color: black;
+}
+
+.boton-contactanos{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.boton-contactanos:hover{
+    background-color: white ;
+    color: black;
+}
+
+/*Flecha: estilo*/
+.fa-arrow{
+    color: white;
+    font-size: 50px;
+}
+
+
+
+
+
+
